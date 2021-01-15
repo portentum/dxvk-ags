@@ -45,8 +45,8 @@ AMD_AGS_API AGSReturnCode __stdcall agsInit(
     gpuInfo->agsVersionMinor  = AMD_AGS_VERSION_MINOR;
     gpuInfo->agsVersionPatch  = AMD_AGS_VERSION_PATCH;
     gpuInfo->isWACKCompliant  = 0;
-    gpuInfo->driverVersion    = "bla";
-    gpuInfo->radeonSoftwareVersion = "bla";
+    gpuInfo->driverVersion    = "20.12.1";
+    gpuInfo->radeonSoftwareVersion = "20.12.1";
     gpuInfo->numDevices       = (*context)->deviceInfo.size();
     gpuInfo->devices          = (*context)->deviceInfo.data();
   }
